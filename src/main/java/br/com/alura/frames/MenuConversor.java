@@ -21,7 +21,7 @@ public class MenuConversor extends MenuConversorForm {
                 break;
 
             default:
-                JOptionPane.showMessageDialog(new JDialog(), "Método não implementado!");
+                JOptionPane.showMessageDialog(null, "Método não implementado!");
         }
     }
 
