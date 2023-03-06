@@ -1,21 +1,24 @@
 package br.com.alura.formulario;
 
-import br.com.alura.enums.MenuOpcaoEnum;
+
+import br.com.alura.frames.MenuPrincipal;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 
-public abstract class MenuConversorForm extends JFrame {
 
-    private JPanel pnlForm;
+public abstract class MenuConversorForm extends JFrame{
+    protected JPanel pnlForm;
     private JPanel pnlRodape;
 
-    private JButton btnOk;
-    private JButton btnFechar;
+    private JButton btnConverter;
+    private JButton btnCancelar;
 
-    private JLabel lblOpcoes;
-    private JComboBox cbxOpcoes;
+    protected JLabel lblEscolhaDoMenu;
+    protected JComboBox cbxEscolhaDoMenu;
+    private String tituloDoPnlForm;
+
 
     public MenuConversorForm(){
         this.inicializar();
@@ -23,57 +26,74 @@ public abstract class MenuConversorForm extends JFrame {
     }
 
     private void inicializar() {
-        this.setTitle("Aplicativo Conversor");
         this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 
         this.setResizable(false);
         this.setLayout(new BorderLayout());
+        this.setLocationRelativeTo(null);
+
+
 
         this.getContentPane().add(getPnlForm(), BorderLayout.CENTER);
         this.getContentPane().add(getPnlRodape(), BorderLayout.PAGE_END);
-//        this.setSize(600, 480);
+
+        this.setSize(300,240);
+        this.setTitle(this.tituloDoPnlForm);
         this.pack();
     }
 
-    public abstract void btnOkClick(ActionEvent ev);
-    public abstract void btnFecharClick(ActionEvent ev);
+    public abstract void btnConverterClick(ActionEvent ev);
+    public abstract void setBtnCancelarClick(ActionEvent ev);
+
+    public abstract JPanel getPnlForm();
 
     public void eventos(){
-        this.btnOk.addActionListener(this::btnOkClick);
-        this.btnFechar.addActionListener(this::btnFecharClick);
-
-    }
-
-    public JPanel getPnlForm() {
-        if(this.pnlForm == null){
-//            this.pnlForm = new JPanel(new GridLayout());
-            this.pnlForm = new JPanel(new GridLayout(2,1));
-
-            this.lblOpcoes = new JLabel("Escolha uma opção");
-            this.cbxOpcoes = new JComboBox<>(MenuOpcaoEnum.getMensagens().toArray());
-
-            this.pnlForm.add(lblOpcoes);
-            this.pnlForm.add(cbxOpcoes);
-
-
-        }
-        return this.pnlForm;
+        this.btnConverter.addActionListener(this::btnConverterClick);
+        this.btnCancelar.addActionListener(this::setBtnCancelarClick);
     }
 
     public JPanel getPnlRodape() {
         if(this.pnlRodape == null){
-            pnlRodape = new JPanel(new FlowLayout(FlowLayout.CENTER));
+            this.pnlRodape = new JPanel(new FlowLayout(FlowLayout.CENTER));
 
-            this.btnOk = new JButton("OK");
-            this.btnFechar = new JButton("Fechar");
+            this.btnConverter = new JButton("Converter");
+            this.btnCancelar = new JButton("Cancelar");
 
-            this.pnlRodape.add(btnOk);
-            this.pnlRodape.add(btnFechar);
+            this.pnlRodape.add(btnConverter);
+            this.pnlRodape.add(btnCancelar);
         }
         return this.pnlRodape;
     }
-    public JComboBox getCbxOpcoes() {
-        return this.cbxOpcoes;
+    public JComboBox getCbxEscolhaDoMenu() {
+        return cbxEscolhaDoMenu;
     }
 
+    public void menuEscolhaSaida(){
+        int escolha = JOptionPane.showConfirmDialog(null, "Deseja continuar?");
+        switch (escolha){
+            case JOptionPane.YES_OPTION:
+                new MenuPrincipal().setVisible(true);
+                break;
+            case JOptionPane.NO_OPTION:
+                JOptionPane.showMessageDialog(null, "Programa Finalizado!");
+                this.dispose();
+                break;
+            case JOptionPane.CANCEL_OPTION:
+                JOptionPane.showMessageDialog(null, "Programa Concluído!");
+                this.dispose();
+                break;
+        }
+    }
+
+    public void setTituloDoPnlForm(String tituloDoPnlForm) {
+        this.tituloDoPnlForm = tituloDoPnlForm;
+    }
+
+    public String getTituloDoPnlForm() {
+        return tituloDoPnlForm;
+    }
+
+    public double trataEntradaDeStringParaDouble(String valorEntrada){
+        return Double.parseDouble(valorEntrada.replace(",", "."));
+    }
 }

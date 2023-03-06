@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16b2372f-16a4-4c37-84bb-479afdade04b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/formulario/MenuPrincipalForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/enums/CodigoMoedasEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/enums/MoedasEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/enums/MenuOpcaoEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/enums/MenuPrincipalEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/formulario/MenuConversorForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/formulario/MenuConversorForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/formulario/MenuConverteMoedasForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/frames/MenuConversor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/frames/MenuPrincipal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/frames/MenuConverteMoedas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/frames/MenuConverteMoedas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
