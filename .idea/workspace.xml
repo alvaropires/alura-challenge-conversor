@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16b2372f-16a4-4c37-84bb-479afdade04b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/formulario/MenuConversorForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/formulario/MenuConversorForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/frames/MenuConversor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/frames/MenuConversor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/service/CotacaoMoedaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/service/CotacaoMoedaService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -34,12 +36,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1677695981" />
+                    <option name="branchName" value="menu-converte-moedas" />
+                    <option name="lastUsedInstant" value="1677759950" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1677695980" />
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1677695981" />
                   </RecentBranch>
                 </list>
               </option>
@@ -70,7 +72,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/alvaro/Documentos/projects/alura-challenge-conversor"
   }
 }]]></component>
   <component name="RecentsManager">

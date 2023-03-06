@@ -6,6 +6,7 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
+import javax.swing.*;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
@@ -23,6 +24,7 @@ public class CotacaoMoedaService {
             conexao.connect();
 
             if(conexao.getResponseCode()!=CODIGO_SUCESSO){
+                JOptionPane.showMessageDialog(new JDialog(), "HTTP error code: " + conexao.getResponseCode());
                 throw new RuntimeException("HTTP error code: " + conexao.getResponseCode());
             }
             JsonParser jp = new JsonParser();
@@ -33,12 +35,12 @@ public class CotacaoMoedaService {
             Gson gson = new Gson();
 
             ConversorMoedaModel resposta = gson.fromJson(jsonSecundario, ConversorMoedaModel.class);
-            System.out.println(resposta);
 
             conexao.disconnect();
 
             return resposta;
         }catch (RuntimeException ex){
+            JOptionPane.showMessageDialog(new JDialog(), "Erro: " + ex.getMessage());
             throw new RuntimeException("Erro: " + ex);
         }
     }
