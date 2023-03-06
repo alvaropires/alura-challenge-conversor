@@ -1,25 +1,25 @@
 package br.com.alura.frames;
 
-import br.com.alura.formulario.MenuConverteMoedasForm;
 import br.com.alura.formulario.MenuConversorForm;
+import br.com.alura.formulario.MenuPrincipalForm;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 
-public class MenuConversor extends MenuConversorForm {
-    public void converteTemperatura(){
-        JOptionPane.showMessageDialog(new JDialog(), "Convertendo Temperaturas...");
-    }
+public class MenuPrincipal extends MenuPrincipalForm {
     @Override
     public void btnOkClick(ActionEvent ev) {
-//        System.out.println(super.getCbxOpcoes().getSelectedItem());
         switch (super.getCbxOpcoes().getSelectedIndex()){
             case 0:
-                MenuConverteMoedasForm menuConverteMoedas = new MenuConverteMoedas();
+                MenuConversorForm menuConverteMoedas = new MenuConverteMoedas();
                 menuConverteMoedas.setVisible(true);
                 super.dispose();
                 break;
-
+            case 1:
+                MenuConversorForm menuConverteTemperatura = new MenuConverteTemperatura();
+                menuConverteTemperatura.setVisible(true);
+                super.dispose();
+                break;
             default:
                 JOptionPane.showMessageDialog(null, "Método não implementado!");
         }

@@ -3,7 +3,7 @@ package br.com.alura.enums;
 import java.util.ArrayList;
 import java.util.List;
 
-public enum CodigoMoedasEnum {
+public enum MoedasEnum {
 
                     BRL_USD("BRL-USD", "De Reais a Dólares"),
                     BRL_EUR("BRL-EUR", "De Reais a Euros"),
@@ -19,13 +19,13 @@ public enum CodigoMoedasEnum {
                     private String valor;
                     private String mensagem;
 
-    CodigoMoedasEnum(String valor, String mensagem){
+    MoedasEnum(String valor, String mensagem){
         this.valor = valor;
         this.mensagem = mensagem;
     }
 
     public static String getNameByIndex(int indice){
-        for(CodigoMoedasEnum n: values()){
+        for(MoedasEnum n: values()){
             if(n.ordinal() == indice){
                 return n.valor;
             }
@@ -35,7 +35,7 @@ public enum CodigoMoedasEnum {
 
     public static List<String> getMensagens() {
         List<String> mensagens = new ArrayList<>();
-        for(CodigoMoedasEnum n: values()){
+        for(MoedasEnum n: values()){
             mensagens.add(n.mensagem);
         }
         return mensagens;
