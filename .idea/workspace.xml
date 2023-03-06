@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="16b2372f-16a4-4c37-84bb-479afdade04b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/frames/MenuConversor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/frames/MenuConversor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/frames/MenuConverteMoedas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/frames/MenuConverteMoedas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/service/CotacaoMoedaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/service/CotacaoMoedaService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -30,6 +30,19 @@ public class MenuConverteMoedas extends MenuConverteMoedasForm {
             JOptionPane.showMessageDialog(null, "Erro: " + ex.getMessage());
         }catch (Exception ex){
             JOptionPane.showMessageDialog(null, "Erro inesperado: " + ex.getMessage());
+        }finally {
+            int escolha = JOptionPane.showConfirmDialog(null, "Deseja continuar?");
+            switch (escolha){
+                case JOptionPane.YES_OPTION:
+                    System.out.println("escolhi sim");
+                    break;
+                case JOptionPane.NO_OPTION:
+                    System.out.println("escolhi não");
+                    break;
+                case JOptionPane.CANCEL_OPTION:
+                    System.out.println("escolhi cancelar");
+                    break;
+            }
         }
 
     }
