@@ -3,32 +3,28 @@ package br.com.alura.frames;
 import br.com.alura.formulario.MenuConversorForm;
 import br.com.alura.formulario.MenuPrincipalForm;
 
-import javax.swing.*;
 import java.awt.event.ActionEvent;
 
 public class MenuPrincipal extends MenuPrincipalForm {
     @Override
-    public void btnOkClick(ActionEvent ev) {
-        switch (super.getCbxOpcoes().getSelectedIndex()){
-            case 0:
-                MenuConversorForm menuConverteMoedas = new MenuConverteMoedas();
-                menuConverteMoedas.setVisible(true);
-                super.dispose();
-                break;
-            case 1:
-                MenuConversorForm menuConverteTemperatura = new MenuConverteTemperatura();
-                menuConverteTemperatura.setVisible(true);
-                super.dispose();
-                break;
-            default:
-                JOptionPane.showMessageDialog(null, "Método não implementado!");
-        }
+    public void btnMoedasClick(ActionEvent ev) {
+        MenuConversorForm menuConverteMoedas = new MenuConverteMoedas();
+        menuConverteMoedas.setVisible(true);
+        super.dispose();
     }
 
     @Override
-    public void btnFecharClick(ActionEvent ev) {
-        super.setVisible(false);
+    public void btnTemperaturaClick(ActionEvent ev) {
+        MenuConversorForm menuConverteTemperatura = new MenuConverteTemperatura();
+        menuConverteTemperatura.setVisible(true);
         super.dispose();
-
     }
+
+    @Override
+    public void btnVazaoClick(ActionEvent ev) {
+        MenuConversorForm menuConverteVazao = new MenuConverteVazao();
+        menuConverteVazao.setVisible(true);
+        super.dispose();
+    }
+
 }

@@ -37,8 +37,6 @@ public class MenuConverteTemperatura extends MenuConversorForm {
                 default:
                     JOptionPane.showMessageDialog(null, "Não implementado.");
             }
-        }catch (NullPointerException | NumberFormatException ex){
-            JOptionPane.showMessageDialog(null, ex.getMessage());
         }catch (Exception ex){
             JOptionPane.showMessageDialog(null, ex.getMessage());
         }

@@ -20,12 +20,12 @@ public class ConversorTemperaturaModel {
         JOptionPane.showMessageDialog(null, mensagem);
     }
     public void deFahrenheitParaCelcius(double temperaturaEntrada){
-        double temperaturaSaida = temperaturaEntrada * 9/5 +32;
+        double temperaturaSaida = (temperaturaEntrada - 32) * 5/9 ;
         String mensagem = this.getMensagem(TemperaturasEnum.FAHRENHEIT_CELCIUS.ordinal(), temperaturaEntrada, temperaturaSaida);
         JOptionPane.showMessageDialog(null, mensagem);
     }
     public void deFahrenheitParaKelvin(double temperaturaEntrada){
-        double temperaturaSaida = temperaturaEntrada * 9/5 + (32 + 273.15);
+        double temperaturaSaida = (temperaturaEntrada - 32) * 5/9 + 273.15;
         String mensagem = this.getMensagem(TemperaturasEnum.FAHRENHEIT_KELVIN.ordinal(), temperaturaEntrada, temperaturaSaida);
         JOptionPane.showMessageDialog(null, mensagem);
     }
