@@ -30,7 +30,6 @@ public abstract class MenuConversorForm extends JFrame{
 
         this.setResizable(false);
         this.setLayout(new BorderLayout());
-        this.setLocationRelativeTo(null);
 
 
 
@@ -40,6 +39,8 @@ public abstract class MenuConversorForm extends JFrame{
         this.setSize(300,240);
         this.setTitle(this.tituloDoPnlForm);
         this.pack();
+        this.setLocation(Toolkit.getDefaultToolkit().getScreenSize().width/2 - getWidth()/2,
+                Toolkit.getDefaultToolkit().getScreenSize().height/2 - getHeight()/2);
     }
 
     public abstract void btnConverterClick(ActionEvent ev);
