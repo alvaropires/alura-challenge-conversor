@@ -7,10 +7,7 @@
     <list default="true" id="16b2372f-16a4-4c37-84bb-479afdade04b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/frames/MenuConverteTemperatura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/frames/MenuConverteTemperatura.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/frames/MenuConverteVazao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/frames/MenuConverteVazao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/model/ConversorTemperaturaModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/service/ConversorTemperaturaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/model/ConversorVazaoModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/service/ConversorVazaoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestaCotacaoMoeda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestaCotacaoMoeda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +93,15 @@
       <recent name="br.com.alura" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestaCotacaoMoeda">
+  <component name="RunManager" selected="JUnit.All in alura-challenge-conversor">
+    <configuration name="All in alura-challenge-conversor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="alura-challenge-conversor" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestaConversorTemperatura" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="alura-challenge-conversor" />
       <option name="PACKAGE_NAME" value="" />
@@ -125,16 +130,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestaCotacaoMoeda.testaCotacaoDolarParaReal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="alura-challenge-conversor" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestaCotacaoMoeda" />
-      <option name="METHOD_NAME" value="testaCotacaoDolarParaReal" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestaCotacaoMoeda.testaCotacaoDolarParaRealRetornaObjeto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="alura-challenge-conversor" />
       <option name="PACKAGE_NAME" value="" />
@@ -147,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in alura-challenge-conversor" />
         <item itemvalue="JUnit.TestaCotacaoMoeda" />
         <item itemvalue="JUnit.TestaConversorTemperatura" />
         <item itemvalue="JUnit.TestaConversorTemperatura.testaDeCelciusParaFahrenheit" />
         <item itemvalue="JUnit.TestaCotacaoMoeda.testaCotacaoDolarParaRealRetornaObjeto" />
-        <item itemvalue="JUnit.TestaCotacaoMoeda.testaCotacaoDolarParaReal" />
       </list>
     </recent_temporary>
   </component>
@@ -165,5 +160,8 @@
       <updated>1677695800105</updated>
     </task>
     <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/alura_challenge_conversor$All_in_alura_challenge_conversor.ic" NAME="All in alura-challenge-conversor Coverage Results" MODIFIED="1678303433003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
