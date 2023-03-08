@@ -3,8 +3,24 @@
 ![Badge em Desenvolvimento](https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-green)
 ![GitHub Org's stars](https://img.shields.io/github/stars/alvaropires?style=social)
 
+### Tópicos
+:small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
+
+:small_blue_diamond: [Funcionalidades](#funcionalidades)
+
+:small_blue_diamond: [Layout da Aplicação](#layout-da-aplicação)
+
+:small_blue_diamond: [Pré-requisitos](#pré-requisitos)
+
+:small_blue_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
+
+:small_blue_diamond: [Tecnologias utilizadas](#tecnologias-utilizadas)
+
+:small_blue_diamond: [Desenvolvedor](#desenvolvedor-octocat)
+
+
 ## Descrição do projeto
-Aplicativo desktop desenvolvido como desafio do Programa Alura ONE G4. Consiste em um multi-conversor capaz de
+Aplicativo desktop desenvolvido como desafio do <a href="https://www.oracle.com/br/education/oracle-next-education/">Programa Alura ONE - Oracle Next Education</a>. Consiste em um multi-conversor capaz de
 converter moedas consumindo a API de Cotações <a href = "https://docs.awesomeapi.com.br/api-de-moedas">AwesomeAPI</a>, converte temperaturas e também valores de vazão.
 
 O aplicativo foi desenvolvido utilizando a biblioteca Java Swing.
@@ -46,7 +62,7 @@ Agora é só executar as conversões que desejar.
 
 ## Tecnologias utilizadas
 
-As ferramentas abaixo foram amplamente utilizadas no desenvolvimento do projeto:
+As ferramentas abaixo foram utilizadas no desenvolvimento do projeto:
 
 * [Swing](https://www.alura.com.br/artigos/como-criar-interface-grafica-swing-java) - widget toolkit GUI utilizado na interface
 * [Intellij IDE](https://www.jetbrains.com/pt-br/idea/) - IDE Utilizada
