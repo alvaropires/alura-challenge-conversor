@@ -1,11 +1,8 @@
-package br.com.alura.model;
+package br.com.alura.service;
 
 import javax.swing.*;
-import java.text.DecimalFormat;
 
-public class ConversorVazaoModel {
-    private double vazaoEntrada;
-    private double vazaoSaida;
+public class ConversorVazaoService {
 
     public void litrosPorSegundoEmLitrosPorHora(double vazaoEntrada){
         double vazaoSaida = vazaoEntrada * 3600;

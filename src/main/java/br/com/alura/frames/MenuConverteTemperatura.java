@@ -2,7 +2,7 @@ package br.com.alura.frames;
 
 import br.com.alura.enums.TemperaturasEnum;
 import br.com.alura.formulario.MenuConversorForm;
-import br.com.alura.model.ConversorTemperaturaModel;
+import br.com.alura.service.ConversorTemperaturaService;
 
 import javax.swing.*;
 import java.awt.*;
@@ -11,7 +11,7 @@ import java.awt.event.ActionEvent;
 public class MenuConverteTemperatura extends MenuConversorForm {
     public void converteTemperatura(int tipoDeConversao){
         try{
-            ConversorTemperaturaModel conversorTemperatura = new ConversorTemperaturaModel();
+            ConversorTemperaturaService conversorTemperatura = new ConversorTemperaturaService();
             double temperaturaEntrada = super.trataEntradaDeStringParaDouble(JOptionPane
                     .showInputDialog(null, "Digite o valor da temperatura: "));
             switch (tipoDeConversao){

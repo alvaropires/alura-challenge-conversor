@@ -2,7 +2,7 @@ package br.com.alura.frames;
 
 import br.com.alura.enums.VazaoEnum;
 import br.com.alura.formulario.MenuConversorForm;
-import br.com.alura.model.ConversorVazaoModel;
+import br.com.alura.service.ConversorVazaoService;
 
 import javax.swing.*;
 import java.awt.*;
@@ -11,7 +11,7 @@ import java.awt.event.ActionEvent;
 public class MenuConverteVazao extends MenuConversorForm {
 
     public void converteVazao(int tipoDeConversao){
-        ConversorVazaoModel conversorVazao = new ConversorVazaoModel();
+        ConversorVazaoService conversorVazao = new ConversorVazaoService();
         double vazaoEntrada = super.trataEntradaDeStringParaDouble(JOptionPane
                 .showInputDialog(null, "Digite o valor da vazão: "));
         switch (tipoDeConversao){

@@ -6,12 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="16b2372f-16a4-4c37-84bb-479afdade04b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/enums/MenuPrincipalEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/formulario/MenuConversorForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/formulario/MenuConversorForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/formulario/MenuPrincipalForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/formulario/MenuPrincipalForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/frames/MenuConverteTemperatura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/frames/MenuConverteTemperatura.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/frames/MenuPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/frames/MenuPrincipal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/model/ConversorTemperaturaModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/model/ConversorTemperaturaModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/frames/MenuConverteVazao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/frames/MenuConverteVazao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/model/ConversorTemperaturaModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/service/ConversorTemperaturaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/model/ConversorVazaoModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/service/ConversorVazaoService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,17 +73,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/alvaro/Documentos/projects/alura-challenge-conversor/src/main/resources/images",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/alvaro/Documentos/projects/alura-challenge-conversor/src/main/resources/images&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="br.com.alura" />
@@ -97,23 +96,62 @@
       <recent name="br.com.alura" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.Application" />
+  <component name="RunManager" selected="JUnit.TestaCotacaoMoeda">
+    <configuration name="TestaConversorTemperatura" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="alura-challenge-conversor" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.alura.formulario.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestaConversorTemperatura" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestaConversorTemperatura.testaDeCelciusParaFahrenheit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="alura-challenge-conversor" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestaConversorTemperatura" />
+      <option name="METHOD_NAME" value="testaDeCelciusParaFahrenheit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestaCotacaoMoeda" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="alura-challenge-conversor" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestaCotacaoMoeda" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestaCotacaoMoeda.testaCotacaoDolarParaReal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="alura-challenge-conversor" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestaCotacaoMoeda" />
+      <option name="METHOD_NAME" value="testaCotacaoDolarParaReal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestaCotacaoMoeda.testaCotacaoDolarParaRealRetornaObjeto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="alura-challenge-conversor" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestaCotacaoMoeda" />
+      <option name="METHOD_NAME" value="testaCotacaoDolarParaRealRetornaObjeto" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Application" />
+        <item itemvalue="JUnit.TestaCotacaoMoeda" />
+        <item itemvalue="JUnit.TestaConversorTemperatura" />
+        <item itemvalue="JUnit.TestaConversorTemperatura.testaDeCelciusParaFahrenheit" />
+        <item itemvalue="JUnit.TestaCotacaoMoeda.testaCotacaoDolarParaRealRetornaObjeto" />
+        <item itemvalue="JUnit.TestaCotacaoMoeda.testaCotacaoDolarParaReal" />
       </list>
     </recent_temporary>
   </component>
