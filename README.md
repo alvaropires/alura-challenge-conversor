@@ -50,6 +50,12 @@ No terminal, clone o projeto com o código abaixo:
 git clone https://github.com/alvaropires/alura-challenge-conversor.git
 ```
 
+Ou se preferir, pode baixar o pacote compactado clicando em no link abaixo:
+
+
+<a href="https://github.com/alvaropires/alura-challenge-conversor/archive/refs/heads/main.zip">Download do Projeto</a>
+
+
 Utilizando sua IDE favorita, compile e execute a Classe Application,localizada dentro do package <strong>br.com.alura</strong>.
 
 
