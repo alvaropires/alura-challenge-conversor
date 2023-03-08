@@ -1,6 +1,7 @@
 # Aplicativo Multi-conversor Utilizando Java Swing
 
 ![Badge em Desenvolvimento](https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-green)
+![Badge Java Version](https://img.shields.io/badge/JAVA-v19.0.2-blue)
 ![GitHub Org's stars](https://img.shields.io/github/stars/alvaropires?style=social)
 
 ### Tópicos
@@ -34,8 +35,6 @@ O aplicativo foi desenvolvido utilizando a biblioteca Java Swing.
 
 ## Layout da Aplicação
 
-
-
 https://user-images.githubusercontent.com/94912998/223703191-472a23d5-bd5e-4b09-852f-773ef4940309.mp4
 
 
@@ -64,8 +63,10 @@ Agora é só executar as conversões que desejar.
 
 As ferramentas abaixo foram utilizadas no desenvolvimento do projeto:
 
+* [Java 19](https://www.oracle.com/br/java/) - Versão Java do Projeto
 * [Swing](https://www.alura.com.br/artigos/como-criar-interface-grafica-swing-java) - widget toolkit GUI utilizado na interface
 * [Intellij IDE](https://www.jetbrains.com/pt-br/idea/) - IDE Utilizada
+* [AwesomeAPI](https://docs.awesomeapi.com.br/api-de-moedas) - API para cotação de moedas em tempo real.
 * [GSON](https://github.com/google/gson) - Biblioteca para uso JSON
 
 ## Desenvolvedor :octocat:
