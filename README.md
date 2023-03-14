@@ -24,7 +24,7 @@
 Aplicativo desktop desenvolvido como desafio do <a href="https://www.oracle.com/br/education/oracle-next-education/">Programa Alura ONE - Oracle Next Education</a>. Consiste em um multi-conversor capaz de
 converter moedas consumindo a API de Cotações <a href = "https://docs.awesomeapi.com.br/api-de-moedas">AwesomeAPI</a>, converte temperaturas e também valores de vazão.
 
-O aplicativo foi desenvolvido utilizando a biblioteca Java Swing.
+O aplicativo foi desenvolvido utilizando a linguagem Java e a biblioteca Java Swing.
 
 ## Funcionalidades
 :heavy_check_mark:`Conversão de Moedas`: consome a API AwesomeAPI para obter a cotação momentanêa e converte os valores monetários.
