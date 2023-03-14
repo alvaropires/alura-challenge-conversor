@@ -10,21 +10,18 @@ public class MenuPrincipal extends MenuPrincipalForm {
     public void btnMoedasClick(ActionEvent ev) {
         MenuConversorForm menuConverteMoedas = new MenuConverteMoedas();
         menuConverteMoedas.setVisible(true);
-        super.dispose();
     }
 
     @Override
     public void btnTemperaturaClick(ActionEvent ev) {
         MenuConversorForm menuConverteTemperatura = new MenuConverteTemperatura();
         menuConverteTemperatura.setVisible(true);
-        super.dispose();
     }
 
     @Override
     public void btnVazaoClick(ActionEvent ev) {
         MenuConversorForm menuConverteVazao = new MenuConverteVazao();
         menuConverteVazao.setVisible(true);
-        super.dispose();
     }
 
 }

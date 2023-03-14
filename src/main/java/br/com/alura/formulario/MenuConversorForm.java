@@ -73,15 +73,15 @@ public abstract class MenuConversorForm extends JFrame{
         int escolha = JOptionPane.showConfirmDialog(null, "Deseja continuar?");
         switch (escolha){
             case JOptionPane.YES_OPTION:
-                new MenuPrincipal().setVisible(true);
                 break;
             case JOptionPane.NO_OPTION:
                 JOptionPane.showMessageDialog(null, "Programa Finalizado!");
-                this.dispose();
+                System.exit(0);
                 break;
+
             case JOptionPane.CANCEL_OPTION:
                 JOptionPane.showMessageDialog(null, "Programa Concluído!");
-                this.dispose();
+                System.exit(0);
                 break;
         }
     }
@@ -90,9 +90,6 @@ public abstract class MenuConversorForm extends JFrame{
         this.tituloDoPnlForm = tituloDoPnlForm;
     }
 
-    public String getTituloDoPnlForm() {
-        return tituloDoPnlForm;
-    }
 
     public double trataEntradaDeStringParaDouble(String valorEntrada){
         return Double.parseDouble(valorEntrada.replace(",", "."));
