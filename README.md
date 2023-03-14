@@ -35,7 +35,8 @@ O aplicativo foi desenvolvido utilizando a biblioteca Java Swing.
 
 ## Layout da Aplicação
 
-https://user-images.githubusercontent.com/94912998/223703191-472a23d5-bd5e-4b09-852f-773ef4940309.mp4
+https://user-images.githubusercontent.com/94912998/225116094-dc7ce5ef-6375-4c0f-8ea9-f7cf6c4e7f72.mp4
+
 
 
 ## Pré-requisitos
