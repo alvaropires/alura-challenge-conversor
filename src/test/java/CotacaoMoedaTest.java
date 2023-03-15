@@ -3,13 +3,13 @@ import br.com.alura.service.CotacaoMoedaService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class TestaCotacaoMoeda {
+public class CotacaoMoedaTest {
     @Test
-    void testaCotacaoDolarParaRealRetornaObjeto(){
+    public void testaCotacaoDolarParaRealRetornaObjeto(){
         Assertions.assertDoesNotThrow(()->CotacaoMoedaService.getServicoDeCotacao("USD-BRL"));
     }
     @Test
-    void TestaNaoConsegueCotarMoedaRetornaException(){
+    public void TestaNaoConsegueCotarMoedaRetornaException(){
         Assertions.assertThrows(MoedaNaoEncontradaException.class,
                 ()->CotacaoMoedaService.getServicoDeCotacao("não existe"));
     }

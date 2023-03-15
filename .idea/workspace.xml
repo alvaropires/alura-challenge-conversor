@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="16b2372f-16a4-4c37-84bb-479afdade04b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/formulario/MenuConversorForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/formulario/MenuConversorForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/frames/MenuPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/frames/MenuPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestaCotacaoMoeda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CotacaoMoedaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,6 +114,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CotacaoMoedaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="alura-challenge-conversor" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CotacaoMoedaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CotacaoMoedaTest.TestaNaoConsegueCotarMoedaRetornaException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="alura-challenge-conversor" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CotacaoMoedaTest" />
+      <option name="METHOD_NAME" value="TestaNaoConsegueCotarMoedaRetornaException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestaConversorTemperatura" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="alura-challenge-conversor" />
       <option name="PACKAGE_NAME" value="" />
@@ -124,32 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestaConversorTemperatura.testaDeCelciusParaFahrenheit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="alura-challenge-conversor" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestaConversorTemperatura" />
-      <option name="METHOD_NAME" value="testaDeCelciusParaFahrenheit" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestaCotacaoMoeda" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="alura-challenge-conversor" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestaCotacaoMoeda" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Application" />
+        <item itemvalue="JUnit.CotacaoMoedaTest.TestaNaoConsegueCotarMoedaRetornaException" />
+        <item itemvalue="JUnit.CotacaoMoedaTest" />
         <item itemvalue="JUnit.All in alura-challenge-conversor" />
-        <item itemvalue="JUnit.TestaCotacaoMoeda" />
         <item itemvalue="JUnit.TestaConversorTemperatura" />
-        <item itemvalue="JUnit.TestaConversorTemperatura.testaDeCelciusParaFahrenheit" />
       </list>
     </recent_temporary>
   </component>
